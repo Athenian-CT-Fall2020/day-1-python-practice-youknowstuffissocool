@@ -5,3 +5,14 @@ name='Keelie'
 print(f'Hello {name}')
 name2 = 'Friends'
 print(f' Welcome {name} and {name2}')
+print('What is your favorite period of history?')
+period_of_history = input()
+print(f'The {period_of_history} is fascinating!')
+print('What do you like about The Holy Roman Empire?')
+What_do_you_like_about = input()
+print(f'I like the {What_do_you_like_about} about it too!')
+print('Enter a number')
+num = int(input())
+quadruple = num * 4
+print(quadruple)
+print(type(num))
